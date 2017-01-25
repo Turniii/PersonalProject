@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.companion.locationapp.UsernameActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+        <TextView
+            android:text="@string/username_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/titleView"
+            android:textSize="30sp" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameLayout"
+            android:layout_marginTop="20dp">
+            <EditText
+                android:inputType="text"
+                android:hint="@string/username_hint_two"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="44dp"
+                android:id="@+id/usernameField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="30sp" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:text="@string/start_string"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/launchMap"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:text="@string/info_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/white"
+            android:id="@+id/textView4"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+
+        <Button
+            android:text="Logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/logoutBtn"
+            android:background="@android:color/transparent"
+            android:textSize="20sp"
+            android:layout_margin="16dp" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

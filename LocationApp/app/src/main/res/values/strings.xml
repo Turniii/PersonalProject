@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LocationApp</string>
+    <string name="appTitle">Location App</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="username_hint">Mail</string>
+    <string name="username_hint_two">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="signup_short">Sign up</string>
+    <string name="signup_long">Not Registred ? Sign in</string>
+    <string name="signin_long">Already Registred ? Sign in</string>
+    <string name="signin_short">Sign in</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="forgot_password_msg">Enter your mail to reset your password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back_btn">Back</string>
+    <string name="username_choose">Choose your username !</string>
+    <string name="start_string">Start</string>
+    <string name="info_username">And you will be see all the users !</string>
+    <string name="title_activity_drawer">Map</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="username_footer_button">Change Username</string>
+    <string name="logout_footer_button">Logout</string>
+
+</resources>

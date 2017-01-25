@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "304078003365",
+    "firebase_url": "https://locationapp-c0b41.firebaseio.com",
+    "project_id": "locationapp-c0b41",
+    "storage_bucket": "locationapp-c0b41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304078003365:android:d23caf2e43d63dcc",
+        "android_client_info": {
+          "package_name": "com.companion.locationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304078003365-skkh1e9or63icv6aivedfve6rd6fsa84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqJ67b_GYHcFlPQsnK4PML9O3cn04Ywrc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

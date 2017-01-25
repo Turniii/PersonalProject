@@ -1,0 +1,109 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.companion.locationapp.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:text="@string/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/titleView"
+            android:textSize="30sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameLayout"
+            android:layout_marginTop="20dp">
+            <EditText
+                android:inputType="text"
+                android:hint="@string/username_hint"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="44dp"
+                android:id="@+id/usernameField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="@dimen/inputSize"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordLayout"
+            android:layout_marginTop="20dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/password_hint"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="44dp"
+                android:id="@+id/passwordField"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="@dimen/inputSize"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:text="@string/signin_short"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signin"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/black"
+
+
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+             />
+
+        <Button
+            android:text="@string/forgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forgotPassword"
+            android:background="@null"
+
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:text="@string/signup_long"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup"
+            android:textAllCaps="false"
+            android:background="@null"
+
+            android:textColor="@android:color/white"
+            />
+
+
+
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</android.support.design.widget.CoordinatorLayout>

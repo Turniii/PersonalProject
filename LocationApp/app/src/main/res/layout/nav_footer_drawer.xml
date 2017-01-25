@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="@string/username_footer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameButton"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:paddingTop="8dp"
+        android:textSize="16sp"
+        android:capitalize="characters"
+        android:textStyle="bold"
+        tools:textStyle="bold" />
+
+    <Button
+        android:text="@string/logout_footer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logoutButton"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textSize="16sp"
+        android:capitalize="characters"
+        android:textStyle="bold" />
+</LinearLayout>
